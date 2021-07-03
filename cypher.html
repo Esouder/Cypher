@@ -21,10 +21,22 @@
             <label for="word3" id="word3label">Word 3: </label>
             <input type="text" id="word3">
             <br id="br2">
+            <label for="word4" id="word4label">Word 4: </label>
+            <input type="text" id="word4">
+            <br id="br4">
+            <label for="word5" id="word5label">Word 5: </label>
+            <input type="text" id="word5">
+            <br id="br5">
 
+        </form>
+        <form id=known_letters>
+            <input type="text" id="letter1key" size=1><label for="letter1" id="letter1label">stands for</label><input type="text" id="letter1" size=1><br id="brl1">
+            <input type="text" id="letter2key" size=1><label for="letter2" id="letter2label">stands for</label><input type="text" id="letter2" size=1><br id="brl2">
         </form>
         <button type="button" id="add" onclick="addButtonPress()">Add Word</button>
         <button type="button" id="add" onclick="delButtonPress()">Remove Word</button>
+        <button type="button" id="add" onclick="addLetterButtonPress()">Add Known Letter</button>
+        <button type="button" id="add" onclick="delLetterButtonPress()">Remove Known Letter</button>
         <button type="button" id="choose" onclick="solveButtonPress()">Solve</button>
     </div>
 
