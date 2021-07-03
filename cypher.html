@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cypher Solver</title>
+    <script defer src="cypher.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="cypher.css">
+</head>
+
+<body>
+
+    <div class="input">
+        <form id="cyphered_words">
+            <label for="word1" id="word1label">Word 1: </label>
+            <input type="text" id="word1">
+            <br id="br1">
+            <label for="word2" id="word2label">Word 2: </label>
+            <input type="text" id="word2">
+            <br id="br3">
+            <label for="word3" id="word3label">Word 3: </label>
+            <input type="text" id="word3">
+            <br id="br2">
+
+        </form>
+        <button type="button" id="add" onclick="addButtonPress()">Add Word</button>
+        <button type="button" id="add" onclick="delButtonPress()">Remove Word</button>
+        <button type="button" id="choose" onclick="solveButtonPress()">Solve</button>
+    </div>
+
+
+    <div class="response" id="response">
+        <!--this is where the answer goes-->
+    </div>
+
+
+
+
+
+</body>
+
+</html>
