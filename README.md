@@ -40,4 +40,4 @@ If enough information is provided, this will yield a single key (which likley st
 
 ## License
 
-This project is licensed under the [GNU General Public License v3.0](https://github.com/Esouder/Cypher/blob/main/LICENSE), because open source software is important. 
+This project is licensed under the [GNU General Public License v3.0](https://github.com/Esouder/Cypher/blob/main/LICENSE).
